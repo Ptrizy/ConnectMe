@@ -207,11 +207,9 @@ class OrderCard extends StatelessWidget {
             ),
             Padding(
               padding: EdgeInsets.symmetric(vertical: 8.h),
-              child: const Expanded(
-                child: Divider(
-                  thickness: 1,
-                  color: ColorStyles.neutral300,
-                ),
+              child: const Divider(
+                thickness: 1,
+                color: ColorStyles.neutral300,
               ),
             ),
             Row(
